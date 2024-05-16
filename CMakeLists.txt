@@ -7,7 +7,7 @@ cmake_policy(SET CMP0074 NEW)
 project(slycot LANGUAGES NONE)
 
 enable_language(C)
-enable_language(Fortran)
+# enable_language(Fortran)
 
 find_package(Python COMPONENTS Interpreter Development NumPy REQUIRED)
 find_package(PythonExtensions REQUIRED)
